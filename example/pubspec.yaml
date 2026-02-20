@@ -26,27 +26,24 @@ dependencies:
   dash_chat_2:
     path: ../
   get: ^4.6.6
-  file_picker: ^6.1.1
+  file_picker: ^10.3.10
   image_picker: ^1.0.7
   chat_input: ^0.0.6
-  permission_handler: ^11.3.0
-  device_info_plus: ^9.1.2
+  permission_handler: ^12.0.1
+  device_info_plus: ^11.5.0
   path_provider: ^2.1.2
   path: ^1.8.3
   video_player: ^2.8.2
   video_compress: ^3.1.2
-  camera: ^0.10.5+9
+  camera: ^0.11.4
 
 dependency_overrides:
-  win32: 5.5.4
-  image_picker: ^1.0.7
   chat_input:
     git:
-      url: https://github.com/michameiu/chat_input.git
-      ref: "001ef0b"
+      url: https://github.com/Starland9/chat_input.git
 
 dev_dependencies:
-  flutter_lints: ^2.0.0
+  flutter_lints: ^6.0.0
   flutter_test:
     sdk: flutter
 
