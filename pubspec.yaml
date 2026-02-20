@@ -25,11 +25,6 @@ dependencies:
   camera: ^0.11.4
   path_provider: ^2.1.2
   path: ^1.8.3
-  chat_input: ^0.0.6
-
-dependency_overrides:
-  win32: 5.5.4
-  image_picker: ^1.2.1
   chat_input:
     git:
       url: https://github.com/Starland9/chat_input.git
